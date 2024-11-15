@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Супер Клікер Deluxe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Супер Клікер Deluxe</h1>
+        <div id="loginSection">
+            <input type="text" id="username" placeholder="Ім'я користувача">
+            <button id="loginButton">Увійти</button>
+        </div>
+        <div id="gameSection" style="display: none;">
+            <div class="stats">
+                <div class="score">Монети: <span id="score">0</span></div>
+                <div class="gold">Злоті: <span id="gold">0</span></div>
+                <div class="timer">Час до конвертації: <span id="timer">10:00:00:00</span></div>
+            </div>
+            <button class="click-button" id="clickButton">Клікай!</button>
+            <div class="upgrades">
+                <button class="upgrade-button" id="upgradeClick">Покращити клік (10 монет)</button>
+                <button class="upgrade-button" id="upgradeAuto">Авто-клікер (50 монет)</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
